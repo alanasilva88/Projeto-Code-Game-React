@@ -1,8 +1,13 @@
 .banner {
-    padding: 6px;
-    background-image: repeating-linear-gradient(to bottom, #282c34, rgb(147, 22, 147), #282c34);
+    padding: 20px;
+    background: linear-gradient(to bottom, #000000, #6c757d);
     color: whitesmoke;
 }
+
+.tab-text {
+    color: whitesmoke; 
+  }
+  
 
 .animacao {
     height: auto;
@@ -23,14 +28,10 @@
     margin-right: 20px; 
 }
 
-.banner-section {
-    margin: 30px;
-}
-
 .animacao {
     animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-delay: 5s;
 }
 
 @keyframes example {
@@ -44,15 +45,12 @@
 }
 
 figure img {
-    border-radius: 8px;
+    border-radius: 2px;
     width: 150px;
-    height: 150px;
-    transition: width 2s, height 2s, transform 2s;
+    height: 250px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 26px 0 rgba(0, 0, 0, 0.19);
 }
 
-figure img:hover {
-    transform: rotate(45deg);
-}
 
 @media screen and (max-width: 768px) {
     .animacao {
@@ -68,6 +66,6 @@ figure img:hover {
 
     .animacao img {
         height: auto; 
-        max-width: 80%;
+        max-width: 50%;
     }
 }

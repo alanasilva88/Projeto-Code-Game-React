@@ -1,16 +1,26 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cabecalho from './components/Cabecalho';
-import Banner from './components/Banner';
-import Galeria from './components/Galeria';
 import Rodape from './components/Rodape';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Contato from './pages/Contato';
+import Cadastro from './pages/Cadastro';
+import NotFound from "./pages/NotFound";
+
 
 const App = () => {
   return (
-    <section className="App">
+    <BrowserRouter>
       <Cabecalho />
-      <Banner />
-      <Galeria />
-      <Rodape />
-    </section>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes> 
+      <Rodape />   
+    </BrowserRouter>
   );
 };
 

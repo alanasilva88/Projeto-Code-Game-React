@@ -1,6 +1,6 @@
 footer {
     padding: 8px;
-    background-color: #282c34;
+    background:linear-gradient(to bottom, #6c757d, #000000);
     color: white;
     text-align: left;
     position: fixed;
@@ -11,34 +11,20 @@ footer {
     align-items: flex-end;
 }
 
+.footer-section {
+    width: 30%;
+}
+
 .footer-section h3 {
-    text-shadow: 4px 4px 8px rgb(147, 22, 147);
     margin-bottom: 8px;
 }
 
-.footer-section img {
-    color: rgb(147, 22, 147);
-}
-
-.footer-section p,
-.footer-section ul {
+.footer-section p {
     margin: 0;
 }
 
 .footer-section ul {
     padding: 0;
-
-}
-
-.footer-section ul li {
-    margin-bottom: 5px;
-    list-style: none;
-}
-
-.footer-link a {
-    text-decoration: none;
-    color: white;
-    line-height: 8px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -49,6 +35,7 @@ footer {
         padding-bottom: 20px;
         position: fixed;
         bottom: 0;
+        width: 100%;
     }
 
     .footer-section {

@@ -2,10 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     color: black;
-    background: linear-gradient(.48turn, #40a 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, #6c757d, #000000);
     flex-direction: row;
-    font-size: large;
-    text-align: center;
     justify-content: space-between;
-    padding: 100px;
+    padding:200px;
 }
