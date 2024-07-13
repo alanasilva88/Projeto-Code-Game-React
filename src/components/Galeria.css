@@ -5,5 +5,29 @@
     background: linear-gradient(to top, #6c757d, #000000);
     flex-direction: row;
     justify-content: space-between;
-    padding:200px;
+    padding: 20px;
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1200px) {
+    .galeria {
+        padding: 200px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .galeria {
+        padding: 100px;
+
+    }
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+    .galeria {
+        flex-direction: column;
+        padding: 50px;
+        width: 100%;
+    }
 }

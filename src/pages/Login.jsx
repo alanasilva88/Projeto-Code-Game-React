@@ -11,7 +11,7 @@ const Login = () => {
 
     return (
 
-        <main>
+        <main className="bg-forms">
             <form className="form-section" onSubmit={handleSubmit(entrar)}>
                 <h1>Login</h1>
                 <hr />

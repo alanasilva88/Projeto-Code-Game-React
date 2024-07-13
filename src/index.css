@@ -1,5 +1,6 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+
 /* Estilo global */
 * {
     margin: 0;
@@ -11,10 +12,28 @@
 }
 
 .form-section {
-    width: 22%;
-    margin: 16px auto; 
+    width: 30%;
+    margin: 16px auto;
+    background-color: rgb(173, 190, 206);
+    padding: 8px;
+    border-radius: 4px; 
 }
+
+.bg-forms {
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/06/17/53/controller-4677877_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2px;
+}
+
 
 .invalid {
     color: red;
 }
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .form-section {
+        width: auto;
+    }
+}
+

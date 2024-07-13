@@ -11,7 +11,7 @@ const Cadastro = () => {
     }
 
     return (
-        <main>
+        <main className="bg-forms">
             <form className="form-section" onSubmit={handleSubmit(handleCadastro)}>
                 <h1>Cadastro</h1>
                 <hr />

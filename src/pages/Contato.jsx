@@ -7,11 +7,10 @@ const Contato = () => {
 
     function enviarFeedback(data) {
         console.log(data); // Aqui você pode processar os dados, como enviar para um servidor, por exemplo.
-        console.log("Feedback enviado!");
     }
 
     return (
-        <main>
+        <main className="bg-forms">
             <form className="form-section" onSubmit={handleSubmit(enviarFeedback)}>
                 <h1>Entre em contato</h1>
                 <hr />
