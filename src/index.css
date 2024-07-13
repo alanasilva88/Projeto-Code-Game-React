@@ -23,7 +23,7 @@
     background-image: url("https://cdn.pixabay.com/photo/2019/12/06/17/53/controller-4677877_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2px;
+    padding: 320px;
 }
 
 
@@ -31,9 +31,13 @@
     color: red;
 }
 
-@media (min-width: 300px) and (max-width: 599px) {
+@media (min-width: 300px) and (max-width: 1500px) {
     .form-section {
-        width: auto;
+        width: 80%;
+    }
+
+    .bg-forms {
+        padding: 50px;
     }
 }
 
