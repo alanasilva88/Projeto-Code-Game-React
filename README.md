@@ -15,12 +15,12 @@ Você pode acessar a página em [Code Game React - Deploy](https://projeto-code-
 
 Este projeto foi construído utilizando as seguintes tecnologias e bibliotecas:
 
-- **React** (^18.3.1): Biblioteca JavaScript para construção de interfaces de usuário.
-- **React-DOM** (^18.3.1): Pacote para manipulação do DOM com React.
-- **React-Bootstrap** (^2.10.4): Componentes de Bootstrap para React.
-- **Bootstrap** (^5.3.3): Framework CSS para design responsivo e estilização.
-- **React-Router-Dom** (^6.24.1): Biblioteca para gerenciamento de rotas no React.
-- **React-Hook-Form** (^7.52.1): Biblioteca para gerenciamento de formulários em React.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React-DOM**: Pacote para manipulação do DOM com React.
+- **React-Bootstrap**: Componentes de Bootstrap para React.
+- **Bootstrap**: Framework CSS para design responsivo e estilização.
+- **React-Router-Dom**: Biblioteca para gerenciamento de rotas no React.
+- **React-Hook-Form**: Biblioteca para gerenciamento de formulários em React.
 
 ## Instalação e Execução
 
